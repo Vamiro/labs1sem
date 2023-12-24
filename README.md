@@ -1,5 +1,5 @@
 Array lab2-3
-Array.h -> файл с реализацией динамического массива с использованием tamplate
+Array.h -> файл с реализацией динамического массива с использованием tamplate\n
 IntroSort.h -> файл с реализацией introsort (qsort, heapsort, insertionsort)
 test.cpp -> тесты с использованием googletest
 
