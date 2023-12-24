@@ -4,9 +4,9 @@
 
 #pragma once
 
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
 #include "Array.h"
-#include "QSort.h"
+#include "IntroSort.h"
 #include <vector>
 #include <random>
 #include <string>
