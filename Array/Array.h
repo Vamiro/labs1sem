@@ -252,7 +252,7 @@ inline void Array<T>::remove(size_type index) {
 
 template<typename T>
 inline const T& Array<T>::operator[](size_type index) const {
-    if (index < 0 || index >= size_) {
+    if (index >= size_) {
         throw std::out_of_range("Index out of range");
     }
     return buf_[index];
@@ -260,7 +260,7 @@ inline const T& Array<T>::operator[](size_type index) const {
 
 template<typename T>
 inline T& Array<T>::operator[](size_type index) {
-    if (index < 0 || index >= size_) {
+    if (index >= size_) {
         throw std::out_of_range("Index out of range");
     }
     return buf_[index];
