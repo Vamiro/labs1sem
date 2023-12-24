@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "test.h"
 
 // Test case for Array class reserve method
 TEST(Array, ReserveTest) {
