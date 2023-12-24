@@ -503,7 +503,7 @@ inline typename Array<T>::Iterator Array<T>::Iterator::operator+(ptrdiff_t n) co
 
 template<typename T>
 inline T& Array<T>::Iterator::operator[](ptrdiff_t n) {
-    if (index_ + n >= array_->size() || index_ + n < 0) return (*array_)[n - 1];
+    if (index_ + n >= array_->size()) return (*array_)[n - 1];
     return (*array_)[index_ + n];
 }
 
