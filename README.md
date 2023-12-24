@@ -15,4 +15,6 @@ Controller -> DiceChartView.h/.cpp -> получение выходных дан
   
 ![a5e4bb4a-835a-4179-93f5-f3014cd1329e](https://github.com/Vamiro/labs1sem/assets/55505126/583d90c1-3bd3-437f-b75f-86a2bda3f81a)
   
+![13aaf6b7-151b-455e-a5aa-4e4c1d57c89a](https://github.com/Vamiro/labs1sem/assets/55505126/b305e504-6462-484a-a633-b394d63f928e)
+  
 ссылка на сборку приложения -> https://disk.yandex.ru/d/fOPrfpuii6IUtw  
